@@ -1,0 +1,95 @@
+/* Styles généraux */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* En-tête */
+header h1 {
+    color: #062af7;
+    margin-top: 30px;
+    font-size: 36px;
+    letter-spacing: 1ppx;
+}
+
+#solde {
+    font-size: 22px;
+    color: red;
+    margin: 20px 0;
+}
+
+/* Boutons */
+.btn-orange {
+    background-color: #46e3ff;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1em;
+
+}
+
+.btn-vert {
+    background-color: #00C853;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.btn-rouge {
+    background-color: #c80000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.btn-orange:hover, .btn-vert:hover, .btn-rouge:hover {
+    opacity: 0.8;
+}
+
+/* Section TradingView */
+#tradingview-container {
+    margin: 20px auto;
+    height: 500px;
+    width: 97%;
+}
+
+/* Prix */
+.price-section {
+    background-color: #1d1c1c;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.orange-text {
+    color: #FFA500;
+}
+
+#variation {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Simulation des retraits */
+#retraits-simulation {
+    position: fixed;
+    color: #2a7906;
+    bottom: 20px;
+    left: 20px;
+    text-align: left;
+    background: #00000018;
+}
